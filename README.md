@@ -1,39 +1,88 @@
-# Alura Flix
+# Aluraflix
 
-Demonstração: 
+Aluraflix é um projeto desenvolvido como parte do desafio da Alura. É uma aplicação web para listar e gerenciar vídeos de jogos, similar a um catálogo de vídeos. Este projeto foi construído utilizando React e Vite.
 
-Vercel: 
+## Índice
 
- Projeto realizado para o challenge AluraFlix para o Oracle Next Education
+- [Visão Geral](#visão-geral)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação e Uso](#instalação-e-uso)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Passos para Rodar a Aplicação](#passos-para-rodar-a-aplicação)
+- [Scripts Disponíveis](#scripts-disponíveis)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
+- [Contato](#contato)
 
-## Sobre o Projeto
+## Visão Geral
 
-Meu primeiro projeto construido do zero utilizando React.
+Aluraflix é uma aplicação web onde os usuários podem visualizar uma lista de vídeos de jogos, adicionar novos vídeos, editar vídeos existentes e removê-los. A aplicação é construída com uma interface amigável e moderna utilizando React, e é empacotada e gerenciada com Vite para um desenvolvimento rápido e eficiente.
 
-Para a realização do projeto foi desenvolvida uma Aplicação para o Alura flix. Esta aplicação permite o usuário guardar diversos gameplays e os separa de acordo com o sistema ou plataforma. também é possivel editar os cards e excluí-los, além de conseguir adicionar novos sistemas.
+## Funcionalidades
 
-Para a criação do projeto utilizei o VITE, para a estilização foi utilizado o Styled Components, para as Routas utilizei o react-router-dom e para o consumo da API foi utilizado o Axios.
+- Listar vídeos de jogos
+- Adicionar novos vídeos
+- Editar vídeos existentes
+- Remover vídeos
+- Modal para gerenciar categorias
 
- O conceito de mobile first foi aplicado.
+## Tecnologias Utilizadas
 
- ## Quadros e Modelos
- 
- Para a montagem do projeto foi nos fonecido um FIGMA e para a realização das tarefas também foi nos fornecido um quado no Trello.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Axios](https://axios-http.com/)
+- [Styled-components](https://styled-components.com/)
+- [JSON Server](https://github.com/typicode/json-server) (para simulação de API)
 
- modelo Figma: https://www.figma.com/design/06e5IXeOVl8QvA3mm4TENR/New-AluraFlix---PT?node-id=1-106&t=hZCjwhyUa4dD113n-0
+## Instalação e Uso
 
- Trello: https://trello.com/b/IKEVUOor/new-aluraflix-pt
+## Pré-requisitos
 
-# Get Started
-In the project directory, you can run:
+- Node.js (v14 ou superior)
+- npm ou yarn
 
-npm start
+## Passos para Rodar a Aplicação
 
-# React + Vite
+ ##Clone o repositório:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   bash
+   git clone https://github.com/seu-usuario/aluraflix.git
+   cd aluraflix
+##Instale as dependências:
 
-Currently, two official plugins are available:
+##bash
+Copiar código
+npm install
+ou
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###bash
+yarn
+Inicie o servidor JSON:
+
+##bash
+npx json-server --watch db.json --port 8000
+Inicie a aplicação:
+
+##bash
+npm run dev
+ou
+
+##bash
+yarn dev
+Abra a aplicação no navegador:
+
+Vá para http://localhost:3000
+
+##Contribuindo
+Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções de bugs, por favor, abra uma issue ou envie um pull request.
+
+##Licença
+Este projeto está licenciado sob a licença MIT.
+
+###Contato
+Matheus Nani - LinkedIn
+
+
+
